@@ -1,0 +1,50 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background-color: black;
+  color: whitesmoke;
+}
+
+header,
+footer {
+  background: #9e9595;
+  color: black;
+  padding: 10px;
+}
+header nav ul {
+  list-style: none;
+  justify-content: center;
+  display: flex;
+  gap: 350px;
+}
+header nav ul li a {
+  color: black;
+  text-decoration: underline;
+}
+header nav ul li a:hover {
+  color: #03e9fa;
+}
+
+section {
+  padding: 20px;
+}
+
+.project {
+  border: 1px solid #03e9fa;
+  margin: 10px auto;
+  padding: 10px;
+  max-width: 500px;
+  background: #000000c0;
+  border-radius: 10px 20px 30px 40px;
+}
+.profile-photo {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  border: #333;
+  object-fit: cover;
+  margin: 10px auto;
+  display: block;
+}
